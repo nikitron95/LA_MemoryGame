@@ -115,7 +115,7 @@ function showWinMessage() {
   // Animation für die Gewinnnachricht
   winMessage.style.animation = "winAnimation 2s forwards"
 
-  // Optional: Entfernen Sie die Nachricht nach einiger Zeit automatisch
+  
   setTimeout(() => {
     document.body.removeChild(winMessage)
   }, 4000) // Entfernt die Nachricht nach 4 Sekunden
